@@ -1,0 +1,40 @@
+.notFoundHeading {
+  font-size: 1.7rem;
+  margin-bottom: 15px;
+}
+
+.mainContainer {
+  margin: 30px auto;
+  padding: 30px 20px 20px;
+  width: 60vw;
+  text-align: center;
+  background-color: #f0f0f0;
+  color: #242424;
+  border-radius: 5px;
+}
+
+.paraText {
+  font-size: 1rem;
+  line-height: 1.7;
+}
+
+.homeBtn {
+  background-color: #e87209;
+  color: #f3f3f3;
+  margin: 10px;
+}
+
+.homeBtn:hover {
+  background-color: #b55e0c;
+  color: #f3f3f3;
+  margin: 10px;
+}
+
+@media only screen and (max-width: 742px) {
+  .notFoundHeading {
+    font-size: 1.5rem;
+  }
+  .paraText {
+    font-size: 1rem;
+  }
+}

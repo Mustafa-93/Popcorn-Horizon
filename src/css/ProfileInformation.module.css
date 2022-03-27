@@ -1,0 +1,34 @@
+.hr {
+  background-color: #ffffff;
+}
+
+.profile_wrapper {
+  margin-top: 1.5rem;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+}
+
+/* Header */
+
+.header_wrapper {
+}
+
+.title {
+  font-size: 1.75rem;
+}
+
+/** 
+*** Mobile Screen
+**/
+@media (max-width: 768px) {
+  .profile_wrapper {
+    width: 100%;
+  }
+}
+
+/**
+*** Large screen
+**/
+@media (min-width: 769px) {
+}

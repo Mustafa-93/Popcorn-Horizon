@@ -1,0 +1,20 @@
+.select{
+  background-color: #C4C4C4;
+  font-weight: 600;
+  font-size: 1.2rem;
+  padding-left: 10px;
+  padding-right: 15px;
+  width: 100%;
+}
+@media (min-width: 400px){
+  .select{
+    width: 60%;
+    
+  }
+}
+@media (min-width: 767px){
+  .select{
+    width: 100%;
+   
+  }
+}

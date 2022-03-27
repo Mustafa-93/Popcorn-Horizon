@@ -1,0 +1,17 @@
+[
+  {
+    "title": "Spider-Man No Way Home",
+    "imgLink": "https://res.cloudinary.com/dolt8nnzc/image/upload/v1647534511/Movie%20SIte/spider-man-no-way-home-12_yeik5h.jpg",
+    "DBId": "6235c37af7d6a74bddb98a58"
+  },
+  {
+    "title": "The Dark Knight",
+    "imgLink": "https://res.cloudinary.com/dolt8nnzc/image/upload/v1647534858/Movie%20SIte/1-12453_dark-knight-wallpaper-hd_cik8gz.jpg",
+    "DBId": "6235c6f6f7d6a74bddb98a5f"
+  },
+  {
+    "title": "Wonder Woman 1984",
+    "imgLink": "https://res.cloudinary.com/dolt8nnzc/image/upload/v1647539686/Movie%20SIte/poster-movie-2021-wonder-woman-1984_afe6mb.jpg",
+    "DBId": "6235c201b563114a80e406b8"
+  }
+]

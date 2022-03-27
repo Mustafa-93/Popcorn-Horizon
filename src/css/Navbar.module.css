@@ -1,0 +1,34 @@
+.nav {
+  background-color: #3a5d74;
+  color: #ffffff;
+}
+
+span.font {
+  font-family: "sans-serif";
+  color: #e1e1e1;
+  margin-bottom: 0.3rem;
+}
+
+.nav .nav_links a.link {
+  color: #e1e1e1;
+  margin-bottom: 0.3rem;
+  text-align: center;
+}
+
+.nav .nav_links a:hover {
+  color: #fff;
+  /* border-bottom: 1px solid #fff; */
+}
+
+@media all and (min-width: 768px) {
+  .nav .nav_links a.link {
+    padding-bottom: 9px;
+  }
+  .nav .nav_links a:hover {
+    color: #fff;
+    border-bottom: 1px solid #fff;
+  }
+  span.font {
+    font-size: 2rem;
+  }
+}

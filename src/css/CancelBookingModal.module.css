@@ -1,0 +1,47 @@
+.cancel_reservation_modal {
+  background-color: #f0f0f0;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.modal_header {
+  font-size: 1.75rem;
+  font-weight: 500;
+  padding-top: 1.5rem;
+  margin-bottom: 0;
+  text-align: center;
+}
+
+.modal_footer {
+  border-color: #000;
+}
+
+.content_text {
+  font-weight: 500;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.sub_information {
+  font-weight: normal;
+}
+
+/* Button */
+
+.cancel_button {
+  background-color: #151515;
+  color: #fff;
+}
+
+.cancel_button:hover {
+  background-color: #525050 !important;
+}
+
+.confirm_button {
+  background-color: #e87209;
+  color: #fff;
+}
+
+.confirm_button:hover {
+  background-color: #fb5801 !important;
+}

@@ -1,0 +1,43 @@
+.scheduleItem{
+  border-bottom: 1px solid #FFFFFF;
+  margin-bottom: 1.2rem;
+  padding-top: 0.6rem;
+  padding-bottom: 0.6rem;
+}
+
+
+.scheduleDetails{
+  color: #333;
+}
+
+.scheduleDetails > h5 {
+/* font-size: 1em; */
+font-weight: 600;
+}
+.scheduleDetails > p{
+  font-size: 0.7rem;
+  font-weight: 300;
+}
+
+
+@media screen and (min-width: 576px) {
+  .scheduleDetails > p{
+    font-size: 0.9rem;
+  }
+}
+@media only screen and (min-width: 958px) {
+  .scheduleWrapper{
+    max-width: 930px;
+    margin: 1rem auto;
+  }
+
+  .scheduleWrapper > h2{
+    font-size: 1.8rem;
+  }
+  .scheduleDetails > h5{
+    font-size: 1.5rem;
+  }
+  .scheduleDetails > p{
+    font-size: 1.25rem;
+  }
+}

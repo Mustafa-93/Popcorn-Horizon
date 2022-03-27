@@ -1,0 +1,52 @@
+{
+  "priceOptions": [
+    140,
+    120,
+    100,
+    110
+  ],
+  "movieAgeLimits": [
+    "PG-7",
+    "PG-11",
+    "PG-15"
+  ],
+  "movieGenres": [
+    "Adventure",
+    "Fantasy",
+    "Disney",
+    "Comedy",
+    "Biography",
+    "Romantic",
+    "Action",
+    "Science Fiction",
+    "Thriller",
+    "Drama",
+    "Universal",
+    "Classic",
+    "Crime"
+  ],
+  "movieLanguages": [
+    "English",
+    "Svenska",
+    "French"
+  ],
+  "movieLengths": [
+    "136",
+    "119",
+    "152",
+    "107",
+    "93",
+    "113",
+    "124",
+    "126",
+    "142",
+    "85",
+    "147",
+    "110",
+    "102",
+    "112",
+    "123",
+    "193",
+    "97"
+  ]
+}

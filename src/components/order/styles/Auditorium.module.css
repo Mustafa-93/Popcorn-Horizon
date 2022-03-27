@@ -1,0 +1,19 @@
+.wrapper{
+  background-color: #F1F1F1;
+  text-align: center;
+  padding-bottom: 30px;
+}
+
+.chairsWrapper{
+ text-align: center;
+}
+.screen{
+  display: inline-block;
+  height: 5px;
+  width: 60%;
+  background-color: black;
+}
+.details{
+  color: black;
+  margin-top: 1.2rem;
+}

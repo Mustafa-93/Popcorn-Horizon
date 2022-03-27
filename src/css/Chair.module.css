@@ -1,0 +1,16 @@
+.chair_available {
+  background-color: black;
+  border-radius: 4px;
+  cursor: pointer;
+  display: inline-block;
+  margin: 7px;
+  height: 32px;
+  width: 32px;
+}
+.chair_reserved {
+  background-color: #c4c4c4;
+}
+
+.active {
+  background-color: #e87209;
+}

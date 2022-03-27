@@ -1,0 +1,87 @@
+.caroImg {
+  height: 200px;
+  min-width: 100%;
+  object-fit: cover;
+  border-radius: 50px;
+  border: 3px solid rgb(253, 253, 253);
+}
+.captionText {
+  color: #e1e1e1;
+  background-color: #242424;
+  display: inline-block;
+  padding: 0.2rem 0.4rem;
+  border-radius: 5px;
+}
+.welcomeImg {
+  filter: brightness(0.7);
+}
+.welcomeText {
+  font-family: "sans-serif";
+  font-size: 1rem;
+}
+p.welcomeText {
+  font-size: 1.5rem;
+  padding: 0.2rem 0.6rem;
+}
+.captionWrapper {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  padding: 0;
+}
+p.movieTitleCaption {
+  font-family: "sans-serif";
+  font-size: 1rem;
+  color: #f0e8e8;
+  position: relative;
+  margin: 0;
+}
+.screeningCaption {
+  background-color: #e1e1e1cc;
+  color: #333;
+  font-family: "Open Sans";
+  font-size: 1rem;
+  font-weight: 700;
+  position: absolute;
+  top: -25px;
+  left: -50px;
+  transform: rotate(-20deg);
+}
+
+@media screen and (min-width: 576px) {
+  .caroImg {
+    height: 320px;
+  }
+  .welcomeText {
+    font-size: 1.2rem;
+  }
+  p.welcomeText {
+    font-size: 2.5rem;
+  }
+  p.movieTitleCaption {
+    font-size: 1.5rem;
+  }
+  .screeningCaption {
+    font-size: 1.2rem;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .caroImg {
+    height: 420px;
+  }
+  p.movieTitleCaption {
+    font-size: 2rem;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .caroImg {
+    height: 450px;
+  }
+}
+@media screen and (min-width: 1400px) {
+  .caroImg {
+    height: 540px;
+    object-position: center;
+  }
+}

@@ -1,0 +1,35 @@
+#profile_information_wrapper {
+  display: inline-flex;
+  width: 50%;
+}
+
+#profile_reservation_wrapper {
+  display: inline-flex;
+  width: 50%;
+}
+
+/* Media Queries */
+
+/** 
+*** Mobile Screen
+**/
+@media (max-width: 768px) {
+  #profile_information_wrapper {
+    /* display: inline-flex; */
+    width: 100%;
+  }
+
+  #profile_reservation_wrapper {
+    display: inline-flex;
+    width: 100%;
+  }
+}
+
+/**
+*** Large screen
+**/
+@media (min-width: 769px) {
+  .profile_container {
+    display: flex;
+  }
+}

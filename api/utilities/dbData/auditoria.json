@@ -1,0 +1,12 @@
+[
+  {
+    "name": "Queen Salon",
+    "seatTotal": 42,
+    "seatsPerRow": [6, 8, 8, 10, 10]
+  },
+  {
+    "name": "King Salon",
+    "seatTotal": 80,
+    "seatsPerRow": [8, 8, 8, 10, 10, 12, 12, 12]
+  }
+]

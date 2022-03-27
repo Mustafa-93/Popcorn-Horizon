@@ -1,0 +1,49 @@
+.pageHeader{
+  font-weight: 600;
+  font-size: 40px;
+}
+
+.matrixWrapper{
+  background-color: #F1F1F1;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.active{
+  background-color: #E87209;
+}
+#cinema_wrapper {
+  display: inline-flex;
+  width: 50%;
+}
+
+#tickets_wrapper {
+  display: inline-flex;
+  width: 50%;
+}
+
+/* Media Queries */
+
+/** 
+*** Mobile Screen
+**/
+@media (max-width: 768px) {
+  #cinema_wrapper {
+    /* display: inline-flex; */
+    width: 100%;
+  }
+
+  #tickets_wrapper {
+    /* display: inline-flex; */
+    width: 100%;
+  }
+}
+
+/**
+*** Large screen
+**/
+@media (min-width: 769px) {
+  .profile_container {
+    display: flex;
+  }
+}

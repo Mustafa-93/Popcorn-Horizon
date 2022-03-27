@@ -1,0 +1,58 @@
+.modalContainer {
+  background-color: #f0f0f0;
+  padding: 30px 40px;
+  width: 100%;
+  border-radius: 5px;
+  margin: auto;
+  text-align: center;
+  color: #242424;
+}
+
+.loginHeading {
+  margin-bottom: 30px;
+  color: #242424;
+}
+
+.loginBtn {
+  background-color: #E87209;
+  color: #F3F3F3;
+  margin: 10px;
+}
+
+.loginBtn:hover {
+  background-color: #b55e0c;
+  color: #F3F3F3;
+  margin: 10px;
+}
+
+.input {
+  margin: 0 auto 20px auto;
+  width: 80%;
+
+}
+.regText{
+  margin-top: 10px;
+  text-align: center;
+  color: #242424;
+}
+
+.labelForm {
+  margin: 0;
+  padding: 0;
+  color: #242424;
+}
+
+.linkStyle {
+  color: #242424;
+  text-decoration: none;
+}
+
+.linkStyle:hover {
+  color: #E87209;
+  text-decoration: none;
+}
+
+.modalCloseButton {
+  background-color: #E5E5E5;
+  border-bottom: none;
+}

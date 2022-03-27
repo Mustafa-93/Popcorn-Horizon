@@ -1,0 +1,43 @@
+.mainFooter{
+    background-color: #3a5d74;
+    color: #ffffff;
+    padding: 1rem;
+    position: absolute;
+    /* position: relative; */
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+address.adresstext{
+    text-align: center;
+    font-size: 0.8rem;
+    margin: 0;
+}
+
+.row {
+    align-items: center;
+}
+p.logo {
+    font-family: "sans-serif";
+    color: #e1e1e1;
+    font-size: 1.5rem;
+    margin: 0;
+}
+
+.socialIcon{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.copy{
+    /* display: flex;
+    justify-content: space-around; */
+    font-size: x-small;
+    text-align: center;
+}
+@media screen and (min-width: 576px) {
+    .addresstext {
+        font-size: 1rem;
+    }
+}
